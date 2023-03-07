@@ -1,0 +1,21 @@
+/**
+
+@mainpage EPL232 HomeWork3 - main.c
+@mainpage EPL232 HomeWork3 - queue.c
+@mainpage EPL232 HomeWork3 - queue.h
+@mainpage EPL232 HomeWork3 -frontierNode.h
+
+@author Socrates Yiannakou
+
+N Puzzle Solver: The program reads a puzzle from a text file
+and an algorithm to be used for its solution. There are 3 different
+algorithms: Breadth-first search(non informative), Best-first search
+(based on Manhattan distance from goal) and A*star-search (based on sum of
+Manhattan distance from goal and Manhattan distance from root).
+The number of total steps and the path from the root to the solution is written
+on a text file. 
+
+There is a bug on the writting process. To avoid the bug, I create the text file beforehand
+and store the results later.
+
+*/
